@@ -1,3 +1,5 @@
 <h1>Today <%= "The date is today." %></h1>
 
-<%= today = DateTime.iso8601('1616-04-23')%>
+<%= today = Date.today.strftime("%A, %B %d, %Y")%>
+
+<p><%= today %></p>
